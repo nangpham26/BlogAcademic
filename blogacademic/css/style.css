@@ -5,6 +5,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
+    margin: 0;
+    margin-top: 7px;
     overflow-x: hidden;
     box-sizing: border-box;
 }
@@ -32,16 +34,14 @@ a {
 .topbar-dropdown {
     display: flex;
     margin-top: -22px;
-
 }
 .address-block {
     display: flex;
     list-style: none;  
-
 }
 .address-block li {
     border-left: 2px solid #eee;
-        padding: 15px 20px 15px 20px;
+    padding: 15px 20px 15px 20px;
 }
 .address-block a {
     text-decoration: none;

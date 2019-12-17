@@ -69,6 +69,8 @@
   padding: 17px 20px;
   margin-right: 277px;
 }
+
+
 .type-2 .header .header-slideshow .slideshow #slide-1 {
   background-image: url(../img/group.jpg);
   position: relative;
@@ -76,15 +78,19 @@
   width: 1347px;
   padding-top: 490px;
    transition: opacity 1000ms linear 0s;
+   background-size: cover;
+  background-position: center;
 }
 
 .type-2 .header .header-slideshow .slideshow #slide-2 {
   background-image: url(../img/1.jpg);
-  transition: opacity 1000ms linear 0s;
   position: relative;
   z-index: 998;
   width: 1347px;
   padding-top: 490px;
+   transition: opacity 1000ms linear 0s;
+   background-size: cover;
+  background-position: center;
 }
 
 .type-2 .header .header-slideshow .slideshow #slide-3 {

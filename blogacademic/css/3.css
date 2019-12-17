@@ -1,0 +1,56 @@
+/*********type-3************/
+	.column-1 .entry-header .entry-title{
+		color: red;
+	}
+	.column {
+		float: left;
+		width: 50%;
+		margin-top: 56px;
+	}
+	.column img {
+		width: 570px;
+		height: 380px;
+	}
+	.entry-header h2 {
+		font-size: 32px;
+		color: #00387d;
+		margin-top: 0;
+		font-family: 'Raleway', sans-serif;
+		font-weight: bold;
+		padding-bottom: 15px;
+		margin-bottom: 38px;
+	}
+	.entry-title {
+		position: relative;
+	}
+	.entry-title:after {
+		content: "";
+	    background-color: #FFB700;
+	    width: 122px;
+	    height: 3px;
+	    display: inline-block;
+	    margin-right: 15px;
+	    vertical-align: middle;
+	    margin-bottom: 3px;
+	    position: absolute;
+	    left: 0;
+	    bottom: 0;
+	}
+	.buttons {
+		margin-top: 2%;
+  		background: #347FE1;
+  		display: inline-block;
+  		z-index: 30;
+  		padding: 17px 20px;
+  		margin-right: 277px;
+  		cursor: pointer;
+	}
+	.buttons a {
+		color: #fff;
+		display: inline-block;
+	}
+	.entry-content p {
+		line-height: 1.5;
+	}
+	
+
