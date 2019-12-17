@@ -30,5 +30,6 @@
                 <img src="./img/us.jpg">
             </a>
         </div>
+        <div class="clear"></div>
     </div>
 </div>
