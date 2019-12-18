@@ -1,0 +1,28 @@
+.main{
+
+}
+
+.main .main-middle .title-main{
+    color: #347fe1;
+    font-size: 350%;
+    
+}
+
+.main .main-middle .contacts{
+    width: 100%;
+    text-align: center;
+    color: #005992;
+    font-size: 200%;
+    
+}
+
+.main .main-middle p{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.main .main-middle iframe{
+    padding: 5%;
+}
