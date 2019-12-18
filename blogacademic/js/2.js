@@ -17,7 +17,9 @@ $(document).ready(function() {
       prevEl: '.swiper-button-prev',
     },
   });
-  /*var gallerybotton = new Swiper(".gallery-botton", {
+});
+$(document).ready(function() {
+  var gallerybutton = new Swiper(".gallery-button", {
     slidesPerView: 6,
     spaceBetween: 10,
     slidesPerGroup: 1,
@@ -27,6 +29,39 @@ $(document).ready(function() {
       nextEl: '#swiper_btn_next',
       prevEl: '#swiper_btn_prev',
     }, 
-  });*/
+  });
+  var latestnews = new Swiper(".latest-news", {
+    slidesPerView: 4,
+    spaceBetween: 10,
+    slidesPerGroup: 1,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    navigation: {
+      nextEl: '#swiper_btn_next',
+      prevEl: '#swiper_btn_prev',
+    }, 
+  });
+  var events = new Swiper(".events", {
+    slidesPerView: 3,
+    spaceBetween: 10,
+    slidesPerGroup: 1,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    navigation: {
+      nextEl: '#swiper_btn_next',
+      prevEl: '#swiper_btn_prev',
+    }, 
+  });
+  var partners = new Swiper(".partners", {
+    slidesPerView: 6,
+    spaceBetween: 10,
+    slidesPerGroup: 1,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    navigation: {
+      nextEl: '#cc1',
+      prevEl: '#cc',
+    }, 
+  });
 });
 

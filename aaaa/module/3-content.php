@@ -2,7 +2,7 @@
     <div class="container">
         <div class="column">
             <header class="entry-header">
-                <h2 class="entry-title">VỀ CHÚNG TÔI</h2>
+                <h2 class="entry-title">Về chúng tôi</h2>
             </header>
             <div class="entry-content">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

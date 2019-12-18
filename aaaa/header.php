@@ -47,7 +47,7 @@
     <nav id="site-navigation" class="main-navigation">
       <ul id="primary-menu" class="menu">
         <li><a href="#" class="menu1">TRANG CHỦ</a></li>
-        <li><a href="blog.php" class="menu1">BLOG</a></li>
+        <li><a href="#" class="menu1">BLOG</a></li>
         <li class="menu-dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">HƯỚNG DẪN HỌC
             <b class="caret"></b>
