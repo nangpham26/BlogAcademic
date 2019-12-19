@@ -1,6 +1,7 @@
+<?php include './header.php';?>
 
-<div class="site-inner">
-		<section id="top-bar">
+ <div class="site-inner">
+    <section id="top-bar">
       <div class="container topbar-dropdown">
         <div class="pull-left">
           <ul class="address-block">
@@ -33,21 +34,21 @@
   <div class="container header-container">
     <div class="academic-left">
       <div class="logo">
-        <a href="#">
+        <a href="index.php">
           <img src="./img/header-logo.png" alt="" class="img-responsive">
         </a>
       </div>
       <div id="site-header">
         <p class="site-title">
-          <a href="#">academic</a>
+          <a href="index.php">academic</a>
         </p>
         <p class="site-des">CLEAN EDUCATION VN</p>
       </div>
     </div>
     <nav id="site-navigation" class="main-navigation">
       <ul id="primary-menu" class="menu">
-        <li><a href="#" class="menu1">TRANG CHỦ</a></li>
-        <li><a href="#" class="menu1">BLOG</a></li>
+        <li><a href="index.php" class="menu1">TRANG CHỦ</a></li>
+        <li><a href="blog.php" class="menu1">BLOG</a></li>
         <li class="menu-dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">HƯỚNG DẪN HỌC
             <b class="caret"></b>
@@ -66,7 +67,7 @@
             <li><a href="#">Tìm hiểu AJAX</a></li>
           </ul>
         </li>
-        <li><a href="#" class="menu1">LIÊN HỆ</a></li>
+        <li><a href="contact.php" class="menu1">LIÊN HỆ</a></li>
       </ul>
     </nav>
   </div>

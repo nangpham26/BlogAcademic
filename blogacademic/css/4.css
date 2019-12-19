@@ -7,7 +7,7 @@
     margin-bottom: 40px;
 }
 .gallery-button h2 {
-	margin-bottom: 10px;
+	margin-bottom: 0px;
     color: #00387d;
     position: relative;
     padding-bottom: 20px;
@@ -30,6 +30,7 @@
 	background-color: #F4BD18;
 	padding: 35px 30px;
 	min-height: 184px;
+    transition: all 0.5s;
 }
 .slide-item .fab {
     color: #fff;
@@ -75,43 +76,64 @@
 .slide-item:hover, .slide-item:focus {
 	 transform: translateX(0) translateY(-5px) translateZ(0) rotate(0deg) scale(1);
 	box-shadow: 0 3px 10px 1px rgba(0, 0, 0, 0.5);
+
 }
 
 
-.image-wrapper a.zoom:hover img {
-  transform: scale(0.9);
-  
-  opacity: 1;
+.image-wrapper a.zoom:hover img {  
+  opacity: 0.9;
 }
 .image-wrapper a.zoom img {
     display: block;
     margin: 0;
     width: 100%;
     height: auto;
-    transition: all 0.5s;
+    opacity: 1;
     width: 285px;
 }
 .bg-color {
     background-color: #353535;
     width: 100%;
-}
-.contents .posted:before {
-    content: "\f017";
-    font-family: "FontAwesome";
-    padding-right: 5px;
+    padding-bottom: 65px;
+    margin-top: 60px;
 }
 .contents {
     background-color: #404040;
-        padding: 35px;
+    padding: 35px;
 }
 .posted a{
     color: #FFB700;
 }
+.posted a:hover {
+    color: black;
+    cursor: context-menu;
+
+}
+.posted {
+    color: #FFB700;
+}
+.posted .far{
+    color: #FFB700;
+    padding-right: 5px;
+}
 .slide-title h3 a{
     color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.slide-title h3 a:hover{
+    color: #FFB700;
 }
 .slide-des {
     color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 23px;
+    -webkit-line-clamp: 3;
+    height: 83px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    margin-top: -11px;
 }
 .latest-news h2 {
     margin-bottom: 10px;
@@ -119,6 +141,7 @@
     position: relative;
     padding-bottom: 20px;
     font-size: 32px;
+    margin-top: 60px;
 }
 .latest-news h2:after {
     content: "";
@@ -134,6 +157,52 @@
     bottom: 0;
 }
 
+.events h2 {
+    margin-bottom: 10px;
+    color: #00387d;
+    position: relative;
+    padding-bottom: 20px;
+    margin-top: 65px;
+    font-size: 32px;
+}
+.events h6 {
+    margin-bottom: 0;
+    color: #282828;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-top: -24px;
+    margin-left: 54px;
+}
+
+.events h2:after {
+    content: "";
+    background-color: #FFB700;
+    width: 40px;
+    height: 3px;
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: middle;
+    margin-bottom: 3px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.post-events a {
+    cursor: context-menu;
+    color: #313131;
+}
+.post-events {
+    padding-left: 26px;
+}
+.post-events .far {
+    margin-right: 9px;
+}
+.post-events .fas {
+    margin-right: 6px;
+    margin-top: 13px;
+}
+
 
 .image-events img {
     width: 367px;
@@ -141,15 +210,20 @@
     transition: all 0.5s;
 }
 .image-events a.zoom:hover img {
-  transform: scale(0.9);
-  
-  opacity: 1;
+  opacity: 0.9
 }
 .title-events {
     padding: 35px;
+    box-shadow: 0 3px 10px 1px rgba(0, 0, 0, 0.5);
+    margin-right: 16px;
 }
-.slide-titles a {
-    color: black;
+.slide-titles h3 a {
+    color: #171717;
+    font-weight: 500;
+    font-size: 20px;
+}
+.slide-titles h3 a:hover {
+    color: #FFB700;
 }
 
 .image-partners {
@@ -158,16 +232,41 @@
 .image-partners:hover {
     border-color: red;
 }
+.partners h2 {
+    margin-bottom: 0px;
+    color: #00387d;
+    position: relative;
+    padding-bottom: 20px;
+    font-size: 32px;
+}
+.partners h2:after {
+    content: "";
+    background-color: #FFB700;
+    width: 122px;
+    height: 3px;
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: middle;
+    margin-bottom: 3px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
 .button {
-    margin-top: 2%;
+    margin-top: 8%;
     background: #347FE1;
     display: inline-block;
     z-index: 30;
-    padding: 17px 20px;
-    /* margin-right: 277px; */
+    padding: 14px 20px;
     cursor: pointer;
-
 }
 .button a {
     color: #fff;
 }
+.button a:hover {
+    opacity: 0.6;
+}
+
+
+
+

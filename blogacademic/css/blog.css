@@ -1,3 +1,35 @@
+.bg-blog {
+  background-image: url(../img/blog.jpg);
+      height: 290px;
+    margin-top: -78px;
+    background-size: cover;
+    background-position: 50%;
+    margin-bottom: 60px;
+}
+
+.page-title h2 {
+  margin-bottom: 10px;
+    color: #fff;
+    position: relative;
+    padding-bottom: 20px;
+    font-size: 60px;
+}
+.page-title {
+  padding-top: 88px;
+}
+.page-title h2:after {
+  content: "";
+    background-color: #FFB700;
+    width: 72px;
+    height: 3px;
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: middle;
+    margin-bottom: 18px;;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
 .site-main {
   width: 100%;
   padding: 60px 0;

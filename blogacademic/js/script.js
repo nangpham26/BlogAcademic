@@ -71,6 +71,9 @@ $(document).ready(function() {
     slidesPerGroup: 1,
     loop: true,
     loopFillGroupWithBlank: true,
-    
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false
+    }
   });
 });

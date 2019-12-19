@@ -1,7 +1,9 @@
 /********import css************/
 
-
+@import 'css/style.css';
 @import 'css/2.css';
 @import 'css/3.css';
 @import 'css/4.css';
 @import 'css/blog.css';
+@import 'css/footer.css';
+@import 'css/contact.css';

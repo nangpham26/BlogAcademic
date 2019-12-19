@@ -1,27 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include './home.php'; ?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Blog</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.1/css/all.css">
-    </link>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/blog.css">
-    <script src="js/jquery.min.js"></script>
-</head>
-
-<body>
-    <div id="all-world" class="blog-world">
-        <?php include './header.php' ?>
-        <div id="main" class="site-main" role="main">
+    <div id="main" class="site-main" role="main">
+            <div class="bg-blog">
+                <div class="bg-black"></div>
+                <div class="container">
+                    <div class="banner">
+                        <div class="page-title"><h2 class="entry-title">Blog Page</h2></div>
+                    </div>
+                </div>
+            </div>
             <div class="middle container">
+
                 <div id="post">
+
                     <!-- #post-## -->
-                    <article class="a_post" style="opacity: 1;">
-                        <a class="post-img" href="#"><img src="http://scarletknights.com/common/controls/image_handler.aspx?thumb_id=0&image_path=/images/2017/6/29/IMGLOGO_colourl_1000x600.jpg" class="post-image" alt=""></a>
+                    <article class="a_post">
+                        <a class="post-img" href="#">
+                            <img src="img/1-blog.jpg" class="post-image" alt=""></a>
+                        <header class="entry-header">
+                            <div class="entry-meta">
+                                <a class="comments-number" href="#">0 Feedbacks on “Anthropology Open House” </a>
+                                <h2 class="entry-title"><a href="#" rel="bookmark">Anthropology Open House</a></h2>
+                        </header><!-- .entry-header -->
+
+                        <div class="entry-content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sapiente eveniet ipsam neque laudantium corrupti enim,
+                                facere ullam debitis nulla temporibus suscipit? Natus tempore obcaecati blanditiis quibusdam asperiores aliquam minima.</p>
+                            <div class="buttons">
+                                <a href="#" class="button-a-post">Read More</a>
+                            </div>
+                        </div><!-- .entry-content -->
+                    </article>
+                    <!-- #post-## -->
+                    <article class="a_post">
+                        <a class="post-img" href="#">
+                            <img src="img/2-blog.jpg" class="post-image" alt=""></a>
                         <header class="entry-header">
                             <div class="entry-meta">
                                 <a class="comments-number" href="#">0 Feedbacks on “Anthropology Open House” </a>
@@ -38,8 +51,9 @@
 
                     </article>
                     <!-- #post-## -->
-                    <article class="a_post" style="opacity: 1;">
-                        <a class="post-img" href="#"><img src="http://scarletknights.com/common/controls/image_handler.aspx?thumb_id=0&image_path=/images/2017/6/29/IMGLOGO_colourl_1000x600.jpg" class="post-image" alt=""></a>
+                    <article class="a_post">
+                        <a class="post-img" href="#">
+                            <img src="img/3-blog.jpg" class="post-image" alt=""></a>
                         <header class="entry-header">
                             <div class="entry-meta">
                                 <a class="comments-number" href="#">0 Feedbacks on “Anthropology Open House” </a>
@@ -53,17 +67,16 @@
                                 <a href="#" class="button-a-post">Read More</a>
                             </div>
                         </div><!-- .entry-content -->
-
                     </article>
                     <!-- #post-## -->
-                    <article class="a_post" style="opacity: 1;">
-                        <a class="post-img" href="#"><img src="http://scarletknights.com/common/controls/image_handler.aspx?thumb_id=0&image_path=/images/2017/6/29/IMGLOGO_colourl_1000x600.jpg" class="post-image" alt=""></a>
+                    <article class="a_post">
+                        <a class="post-img" href="#">
+                            <img src="img/4-blog.jpg" class="post-image" alt=""></a>
                         <header class="entry-header">
                             <div class="entry-meta">
                                 <a class="comments-number" href="#">0 Feedbacks on “Anthropology Open House” </a>
                                 <h2 class="entry-title"><a href="#" rel="bookmark">Anthropology Open House</a></h2>
                         </header><!-- .entry-header -->
-
                         <div class="entry-content">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sapiente eveniet ipsam neque laudantium corrupti enim,
                                 facere ullam debitis nulla temporibus suscipit? Natus tempore obcaecati blanditiis quibusdam asperiores aliquam minima.</p>
@@ -71,29 +84,11 @@
                                 <a href="#" class="button-a-post">Read More</a>
                             </div>
                         </div><!-- .entry-content -->
-
                     </article>
                     <!-- #post-## -->
-                    <article class="a_post" style="opacity: 1;">
-                        <a class="post-img" href="#"><img src="http://scarletknights.com/common/controls/image_handler.aspx?thumb_id=0&image_path=/images/2017/6/29/IMGLOGO_colourl_1000x600.jpg" class="post-image" alt=""></a>
-                        <header class="entry-header">
-                            <div class="entry-meta">
-                                <a class="comments-number" href="#">0 Feedbacks on “Anthropology Open House” </a>
-                                <h2 class="entry-title"><a href="#" rel="bookmark">Anthropology Open House</a></h2>
-                        </header><!-- .entry-header -->
-
-                        <div class="entry-content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sapiente eveniet ipsam neque laudantium corrupti enim,
-                                facere ullam debitis nulla temporibus suscipit? Natus tempore obcaecati blanditiis quibusdam asperiores aliquam minima.</p>
-                            <div class="buttons">
-                                <a href="#" class="button-a-post">Read More</a>
-                            </div>
-                        </div><!-- .entry-content -->
-
-                    </article>
-                    <!-- #post-## -->
-                    <article class="a_post" style="opacity: 1;">
-                        <a class="post-img" href="#"><img src="http://scarletknights.com/common/controls/image_handler.aspx?thumb_id=0&image_path=/images/2017/6/29/IMGLOGO_colourl_1000x600.jpg" class="post-image" alt=""></a>
+                    <article class="a_post">
+                        <a class="post-img" href="#">
+                            <img src="img/5-blog.jpg" class="post-image" alt=""></a>
                         <header class="entry-header">
                             <div class="entry-meta">
                                 <a class="comments-number" href="#">0 Feedbacks on “Anthropology Open House” </a>
@@ -185,8 +180,6 @@
                 </div>
                 <div class="clear"></div>
             </div>
-        </div>
     </div>
+    <?php include './footer.php'; ?>
 </body>
-
-</html>

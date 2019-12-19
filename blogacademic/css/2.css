@@ -69,6 +69,9 @@
   padding: 17px 20px;
   margin-right: 277px;
 }
+.type-2 .header .header-slideshow .slideshow .swiper-slide .slider-content .button-content:hover {
+  opacity: 0.6;
+}
 
 
 .type-2 .header .header-slideshow .slideshow #slide-1 {

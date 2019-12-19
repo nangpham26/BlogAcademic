@@ -1,0 +1,50 @@
+#footer {
+	padding: 26px 0;
+	background-color: #353535;
+	text-align: left;
+	margin-top: 63px;
+	height: 173px;
+	padding-top: 87px;
+}
+.column-footer {
+	float: left;
+    margin-right: 172px;
+    color: #fff;
+}
+.address-vietnam li a{
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+}
+.address-vietnam {
+	list-style: none;
+    margin-left: -39px;
+        margin-top: -15px;
+}
+.widget-title{
+	font-size: 24px;
+	font-weight: 400;
+}
+.address-vietnam li {
+	padding-bottom: 10px;	
+}
+#academic-2 {
+	margin-top: -36px;
+}
+#academic-3 {
+	    margin-top: -24px;
+}
+.list-icons {
+	list-style: none;
+	display: flex;
+}
+.list-icons li a:hover {
+	opacity: 0.9;
+}
+.list-icons .fb {
+	margin-left: -44px;
+}
+.textwidget img:hover {
+	opacity: 0.7;
+}
+
