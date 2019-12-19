@@ -20,7 +20,7 @@
         <div class="pull-right">
           <ul class="menu-login">
             <li id="signin"> 
-              <a href="#">Đăng nhập</a>
+              <a href="login.php">Đăng nhập</a>
             </li>
             <li id="signup">
               <a href="#">Đăng ký</a>
