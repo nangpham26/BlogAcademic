@@ -202,7 +202,10 @@
     margin-right: 6px;
     margin-top: 13px;
 }
-
+.image-events {
+    border-bottom: 4px solid #FFB700;
+    margin-right: 16px;
+}
 
 .image-events img {
     width: 367px;
@@ -214,7 +217,7 @@
 }
 .title-events {
     padding: 35px;
-    box-shadow: 0 3px 10px 1px rgba(0, 0, 0, 0.5);
+
     margin-right: 16px;
 }
 .slide-titles h3 a {
@@ -230,7 +233,7 @@
     border: 1px solid #c5d1d1;
 }
 .image-partners:hover {
-    border-color: red;
+    border-color: #00387d;
 }
 .partners h2 {
     margin-bottom: 0px;
@@ -238,6 +241,7 @@
     position: relative;
     padding-bottom: 20px;
     font-size: 32px;
+    margin-top: 104px;
 }
 .partners h2:after {
     content: "";

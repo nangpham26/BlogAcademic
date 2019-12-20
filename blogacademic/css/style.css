@@ -131,8 +131,8 @@ a {
     display: flex;
     list-style: none;
     padding: 11px;
-    font-size: 18px;
-    margin-left: 334px;
+    font-size: 17px;
+    margin-left: 330px;
 
 }
 .menu .menu1 {
@@ -165,6 +165,10 @@ a {
 .sub-menu a:hover {
     background-color: royalblue;
     color: #ffde00;
+    .dropdown-toggle {
+    color: #ffde00;
+}
+
     
 }
 .menu-dropdown {

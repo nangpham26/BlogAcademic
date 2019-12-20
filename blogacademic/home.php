@@ -23,7 +23,7 @@
               <a href="login.php">Đăng nhập</a>
             </li>
             <li id="signup">
-              <a href="#">Đăng ký</a>
+              <a href="signup.php">Đăng ký</a>
             </li>
           </ul>
         </div> 
@@ -51,8 +51,7 @@
         <li><a href="blog.php" class="menu1">BLOG</a></li>
         <li class="menu-dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">HƯỚNG DẪN HỌC
-            <b class="caret"></b>
-          </a>
+           <i class="fas fa-angle-down"></i>          </a>
           <ul class="sub-menu">
             <li><a href="#">Tìm hiểu HTML</a></li>
             <li><a href="#">Tìm hiểu AngularJS</a></li>
@@ -60,7 +59,8 @@
           </ul>
         </li>
         <li class="menu-dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">KHOÁ HỌC</a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">KHOÁ HỌC
+          <i class="fas fa-angle-down"></i> </a>
           <ul class="sub-menu">
             <li><a href="#">Nhập môn lập trình</a></li>
             <li><a href="#">Tìm hiểu AngularJS</a></li>
