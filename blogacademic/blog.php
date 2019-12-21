@@ -1,185 +1,123 @@
 <?php include './home.php'; ?>
 
-    <div id="main" class="site-main" role="main">
-            <div class="bg-blog">
-                <div class="bg-black"></div>
-                <div class="container">
-                    <div class="banner">
-                        <div class="page-title"><h2 class="entry-title">Blog Page</h2></div>
-                    </div>
+<div id="main" class="site-main" role="main">
+    <div class="bg-blog">
+        <div class="bg-black"></div>
+        <div class="container">
+            <div class="banner">
+                <div class="page-title">
+                    <h2 class="entry-title">Blog Page</h2>
                 </div>
             </div>
-            <div class="middle container">
-
-                <div id="post">
-
-                    <!-- #post-## -->
-                    <article class="a_post">
-                        <a class="post-img" href="#">
-                            <img src="img/1-blog.jpg" class="post-image" alt=""></a>
-                        <header class="entry-header">
-                            <div class="entry-meta">
-                                <a class="comments-number" href="#">0 Feedbacks on “Anthropology Open House” </a>
-                                <h2 class="entry-title"><a href="#" rel="bookmark">Anthropology Open House</a></h2>
-                        </header><!-- .entry-header -->
-
-                        <div class="entry-content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sapiente eveniet ipsam neque laudantium corrupti enim,
-                                facere ullam debitis nulla temporibus suscipit? Natus tempore obcaecati blanditiis quibusdam asperiores aliquam minima.</p>
-                            <div class="buttons">
-                                <a href="#" class="button-a-post">Read More</a>
-                            </div>
-                        </div><!-- .entry-content -->
-                    </article>
-                    <!-- #post-## -->
-                    <article class="a_post">
-                        <a class="post-img" href="#">
-                            <img src="img/2-blog.jpg" class="post-image" alt=""></a>
-                        <header class="entry-header">
-                            <div class="entry-meta">
-                                <a class="comments-number" href="#">0 Feedbacks on “Anthropology Open House” </a>
-                                <h2 class="entry-title"><a href="#" rel="bookmark">Anthropology Open House</a></h2>
-                        </header><!-- .entry-header -->
-
-                        <div class="entry-content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sapiente eveniet ipsam neque laudantium corrupti enim,
-                                facere ullam debitis nulla temporibus suscipit? Natus tempore obcaecati blanditiis quibusdam asperiores aliquam minima.</p>
-                            <div class="buttons">
-                                <a href="#" class="button-a-post">Read More</a>
-                            </div>
-                        </div><!-- .entry-content -->
-
-                    </article>
-                    <!-- #post-## -->
-                    <article class="a_post">
-                        <a class="post-img" href="#">
-                            <img src="img/3-blog.jpg" class="post-image" alt=""></a>
-                        <header class="entry-header">
-                            <div class="entry-meta">
-                                <a class="comments-number" href="#">0 Feedbacks on “Anthropology Open House” </a>
-                                <h2 class="entry-title"><a href="#" rel="bookmark">Anthropology Open House</a></h2>
-                        </header><!-- .entry-header -->
-
-                        <div class="entry-content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sapiente eveniet ipsam neque laudantium corrupti enim,
-                                facere ullam debitis nulla temporibus suscipit? Natus tempore obcaecati blanditiis quibusdam asperiores aliquam minima.</p>
-                            <div class="buttons">
-                                <a href="#" class="button-a-post">Read More</a>
-                            </div>
-                        </div><!-- .entry-content -->
-                    </article>
-                    <!-- #post-## -->
-                    <article class="a_post">
-                        <a class="post-img" href="#">
-                            <img src="img/4-blog.jpg" class="post-image" alt=""></a>
-                        <header class="entry-header">
-                            <div class="entry-meta">
-                                <a class="comments-number" href="#">0 Feedbacks on “Anthropology Open House” </a>
-                                <h2 class="entry-title"><a href="#" rel="bookmark">Anthropology Open House</a></h2>
-                        </header><!-- .entry-header -->
-                        <div class="entry-content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sapiente eveniet ipsam neque laudantium corrupti enim,
-                                facere ullam debitis nulla temporibus suscipit? Natus tempore obcaecati blanditiis quibusdam asperiores aliquam minima.</p>
-                            <div class="buttons">
-                                <a href="#" class="button-a-post">Read More</a>
-                            </div>
-                        </div><!-- .entry-content -->
-                    </article>
-                    <!-- #post-## -->
-                    <article class="a_post">
-                        <a class="post-img" href="#">
-                            <img src="img/5-blog.jpg" class="post-image" alt=""></a>
-                        <header class="entry-header">
-                            <div class="entry-meta">
-                                <a class="comments-number" href="#">0 Feedbacks on “Anthropology Open House” </a>
-                                <h2 class="entry-title"><a href="#" rel="bookmark">Anthropology Open House</a></h2>
-                        </header><!-- .entry-header -->
-
-                        <div class="entry-content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sapiente eveniet ipsam neque laudantium corrupti enim,
-                                facere ullam debitis nulla temporibus suscipit? Natus tempore obcaecati blanditiis quibusdam asperiores aliquam minima.</p>
-                            <div class="buttons">
-                                <a href="#" class="button-a-post">Read More</a>
-                            </div>
-                        </div><!-- .entry-content -->
-
-                    </article>
-                </div>
-                <div id="sidebar">
-                    <div class="container-fluid fix">
-                        <div class="product_search widget">
-                            <form role="search" method="get" class="form-search" action="#">
-                                <input type="search" id="product-search" class="search-field" placeholder="Search…" value="" name="s">
-                                <button type="submit" value="Search"><i class="fas fa-search"></i></button>
-                                
-                            </form>
-                        </div>
-                        <h4 class="widget-title">Popular Blog Posts</h4>
-                        <div class="item">
-                            <div class="img-item">
-                                <img src="./img/1.jpg" alt="hinh" class="img-responsive">
-                            </div>
-                            <div class="img-content">
-                                <a class="sub-title">Anthropology Open House</a><br>
-                                <span class="des"><i class="far fa-clock"></i>
-                                    February 8, 2018
-                                </span>
-                            </div>
-                            <div class="clear"></div>
-                        </div>
-                        <div class="item">
-                            <div class="img-item">
-                                <img src="./img/1.jpg" alt="hinh" class="img-responsive">
-                            </div>
-                            <div class="img-content">
-                                <a class="sub-title">Anthropology Open House</a><br>
-                                <span class="des"><i class="far fa-clock"></i>
-                                    February 8, 2018
-                                </span>
-                            </div>
-                            <div class="clear"></div>
-                        </div>
-                        <div class="item">
-                            <div class="img-item">
-                                <img src="./img/1.jpg" alt="hinh" class="img-responsive">
-                            </div>
-                            <div class="img-content">
-                                <a class="sub-title">Anthropology Open House</a><br>
-                                <span class="des"><i class="far fa-clock"></i>
-                                    February 8, 2018
-                                </span>
-                            </div>
-                            <div class="clear"></div>
-                        </div>
-                        <div class="item">
-                            <div class="img-item">
-                                <img src="./img/1.jpg" alt="hinh" class="img-responsive">
-                            </div>
-                            <div class="img-content">
-                                <a class="sub-title">Anthropology Open House</a><br>
-                                <span class="des"><i class="far fa-clock"></i>
-                                    February 8, 2018
-                                </span>
-                            </div>
-                            <div class="clear"></div>
-                        </div>
-                        <div class="item">
-                            <div class="img-item">
-                                <img src="./img/1.jpg" alt="hinh" class="img-responsive">
-                            </div>
-                            <div class="img-content">
-                                <a class="sub-title">Anthropology Open House</a><br>
-                                <span class="des"><i class="far fa-clock"></i>
-                                    February 8, 2018
-                                </span>
-                            </div>
-                            <div class="clear"></div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="clear"></div>
-            </div>
+        </div>
     </div>
-    <?php include './footer.php'; ?>
+    <div class="middle container">
+        <div class="column-left">
+            <div class="column-post">
+                <div class="khung">
+                    <img src="./img/9-1.png" alt="">
+                    <div class="ndung">
+                        <h3>Nothing Beats New York</h3>
+                        <h5>January 23, 2018</h5>
+                        <p>Etiam placerat velit vitae dui blandit sollicitudin. Vestibulum tincidunt sed dolor sit amet volutpat. Nullam egestas sem at mollis sodales. Nunc eget lacinia eros,…</p>
+                        <div class="ndung-buttons">
+                                <a href="#" class="button-a-post">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column-post">
+                <div class="khung">
+                    <img src="./img/9-1.png" alt="">
+                    <div class="ndung">
+                        <h3>Nothing Beats New York</h3>
+                        <h5>January 23, 2018</h5>
+                        <p>Etiam placerat velit vitae dui blandit sollicitudin. Vestibulum tincidunt sed dolor sit amet volutpat. Nullam egestas sem at mollis sodales. Nunc eget lacinia eros,…</p>
+                        <div class="ndung-buttons">
+                                <a href="#" class="button-a-post">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column-post">
+                <div class="khung">
+                    <img src="./img/9-2.png" alt="">
+                    <div class="ndung">
+                        <h3>Nothing Beats New York</h3>
+                        <h5>January 23, 2018</h5>
+                        <p>Etiam placerat velit vitae dui blandit sollicitudin. Vestibulum tincidunt sed dolor sit amet volutpat. Nullam egestas sem at mollis sodales. Nunc eget lacinia eros,…</p>
+                        <div class="ndung-buttons">
+                                <a href="#" class="button-a-post">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column-post">
+                <div class="khung">
+                    <img src="./img/9-3.png" alt="">
+                    <div class="ndung">
+                        <h3>Nothing Beats New York</h3>
+                        <h5>January 23, 2018</h5>
+                        <p>Etiam placerat velit vitae dui blandit sollicitudin. Vestibulum tincidunt sed dolor sit amet volutpat. Nullam egestas sem at mollis sodales. Nunc eget lacinia eros,…</p>
+                        <div class="ndung-buttons">
+                                <a href="#" class="button-a-post">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column-post">
+                <div class="khung">
+                    <img src="./img/9-4.png" alt="">
+                    <div class="ndung">
+                        <h3>Nothing Beats New York</h3>
+                        <h5>January 23, 2018</h5>
+                        <p>Etiam placerat velit vitae dui blandit sollicitudin. Vestibulum tincidunt sed dolor sit amet volutpat. Nullam egestas sem at mollis sodales. Nunc eget lacinia eros,…</p>
+                        <div class="ndung-buttons">
+                                <a href="#" class="button-a-post">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <div class="item-list">
+                    <ul class="pagination">
+                        <li class="page"><a href="#">1</a></li>
+                        <li class="page"><a title="Go to page 2" href="#">2</a></li>
+                        <li class="page"><a title="Go to next page" href="#">Next</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="column-right">
+        <h4 class="widget-title">Looking for something?</h4>
+                <section class="search-form">
+                    <form method="get" class="product-search" action="#">
+                        <input type="search"  class="search-field" placeholder="Search…" value="" name="s">
+                        <button type="submit" value="Search">Search</button>
+                        <input type="hidden" name="post_type" value="product">
+                    </form>
+                </section>
+                <section class="forlow-title">
+                    <h4 class="widget-title">Follow us on Social Media</h4>
+                    <a href="#"><img src="./img/twitter.png" alt="" class="imgresponsive"></a>
+                    <a href="#"><img src="./img/facebook.png" alt="" class="imgresponsive"></a>
+                    <a href="#"><img src="./img/instagram.png" alt="" class="imgresponsive"></a>
+                    <a href="#"><img src="./img/youtube.png" alt="" class="imgresponsive"></a>
+                </section>
+                <section>
+                    <h4 class="widget-title">Categories</h4>
+                    <ul class="product-categories">
+                        <li><a href="#">Food</a></li>
+                        <li><a href="#">Stress</a></li>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Time Management</a></li>
+                        <li><a href="#">Uncategorized</a></li>
+                        <li><a href="#">Work</a></li>
+                    </ul>
+                </section>
+        </div>
+    </div>
+</div>
+<?php include './footer.php'; ?>
 </body>
