@@ -119,5 +119,7 @@
         </div>
     </div>
 </div>
+<div class="mar" style="margin-top: -63px;">
 <?php include './footer.php'; ?>
+</div>
 </body>
