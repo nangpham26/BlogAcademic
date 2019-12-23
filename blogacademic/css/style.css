@@ -195,6 +195,7 @@ a {
     .menu-login {
         margin-left: 283px;
     }
+
 }
 @media screen and (max-width: 1024px) {
     .menu {
@@ -204,16 +205,81 @@ a {
     .menu-login {
         margin-left: 50px;
     }
+
 }
 @media screen and (max-width: 768px) {
-    .menu {
-        font-size: 16px;
-        margin-left: 94px;
+    .page-blog {
+        display: none;
     }
-    .menu-login {
-        margin-left: 50px;
+    .slideshow {
+
+    }
+    #left-button {
+        display: block;
+    }
+    #right-button {
+        display: block
     }
 }
-
-
+/********************Menu moblie left*************************************/
+.left-right-button {
+    background-color: red;
+        margin-bottom: 47px;
+}
+.menu-button {
+    display: none;
+}
+#left-button {
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    background: #27A5E0;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 5px;
+    z-index: 3000;
+    overflow: hidden;
+     position: fixed;
+}
+#left-button .container {
+    margin-top: 9px;
+    margin-left: -7px;
+}
+.bar1, .bar2, .bar3 {
+    width: 19px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+    transition: all ease-in-out 0.2s;
+}
+.change .bar1 {
+    transform: rotate(-45deg) translate(-5px, 5px);
+}
+.change .bar2 {
+    opacity: 0;
+}
+.change .bar3 {
+    transform: rotate(45deg) translate(-5px, -5px);
+}
+/**********************Menu mobile right**********************************/
+#right-button {
+   position: absolute;
+    top: 7px;
+    right: 5px;
+    background: #27A5E0;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 5px;
+    z-index: 3000;
+    overflow: hidden;
+    position: fixed;
+}
 

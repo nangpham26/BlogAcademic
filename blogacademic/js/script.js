@@ -76,4 +76,11 @@ $(document).ready(function() {
       disableOnInteraction: false
     }
   });
+
+  
+       
+    
 });
+   function myFunction(x) {
+              x.classList.toggle("change");
+          }
