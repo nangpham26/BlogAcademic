@@ -4,11 +4,13 @@
         <div class="swiper-container gallery-button">
             <h2>BLOG NỔI BẬT</h2>
 
+            <div class="btn">
             <div id="swiper_btn_prev" class="swiper_btn gallery-prev">
                 <i class="fa fa-angle-left"></i>
             </div>
             <div id="swiper_btn_next" class="swiper_btn gallery-next">
                 <i class="fa fa-angle-right"></i>
+            </div>
             </div>
 
             <div class="swiper-wrapper button-wrapper">
@@ -63,12 +65,13 @@
         <div class="container">
         <div class="swiper-container latest-news">
             <h2>TIN MỚI NHẤT</h2>
-            <div id="swiper_btn_prev" class="swiper_btn late-prev">
+            <div class="btn">
+                <div id="swiper_btn_prev" class="swiper_btn late-prev">
                 <i class="fa fa-angle-left"></i>
             </div>
             <div id="swiper_btn_next" class="swiper_btn late-next">
                 <i class="fa fa-angle-right"></i>
-            </div>
+            </div></div>
 
             <div class="swiper-wrapper news-button ">
                 <div class="news swiper-slide">
@@ -225,11 +228,13 @@
        <div class="swiper-container events">
             <h2>SỰ KIẾN SẮP TỚI</h2>
             <h6 class="entry-subtitle">How can we help you</h6>
+            <div class="btn">
             <div id="swiper_btn_prev" class="swiper_btn event-prev">
                 <i class="fa fa-angle-left"></i>
             </div>
             <div id="swiper_btn_next" class="swiper_btn event-next">
                 <i class="fa fa-angle-right"></i>
+            </div>
             </div>
 
             <div class="swiper-wrapper events-button">
@@ -346,12 +351,12 @@
         <div class="container">
         <div class="swiper-container partners">
             <h2>HỢP TÁC</h2>
-            <div id="swiper_btn_prev" class="swiper_btn partners-prev">
+            <div class="btn"><div id="swiper_btn_prev" class="swiper_btn partners-prev">
                 <i class="fa fa-angle-left"></i>
             </div>
             <div id="swiper_btn_next" class="swiper_btn partners-next">
                 <i class="fa fa-angle-right"></i>
-            </div>
+            </div></div>
 
             <div class="swiper-wrapper partners-button">
                 <div class="partners swiper-slide">

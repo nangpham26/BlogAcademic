@@ -31,6 +31,28 @@ $(document).ready(function() {
     autoplay: {
       delay: 2500,
       disableOnInteraction: false
+    },
+    breakpoints: {
+      1500: {
+        slidesPerView: 6,
+        spaceBetween: 10
+      },
+      1200: {
+        slidesPerView: 5,
+        spaceBetween: 10
+      },
+      990: {
+        slidesPerView: 3,
+        spaceBetween: 10
+      },
+      770: {
+        slidesPerView: 3,
+        spaceBetween: 10
+      },
+      500:{
+        slidesPerView: 2,
+        spaceBetween: 10
+      }
     }
     
   });
@@ -44,6 +66,28 @@ $(document).ready(function() {
     slidesPerGroup: 1,
     loop: true,
     loopFillGroupWithBlank: true,
+    breakpoints: {
+      1500: {
+        slidesPerView: 4,
+        spaceBetween: 10
+      },
+      1200: {
+        slidesPerView: 4,
+        spaceBetween: 10
+      },
+      990: {
+        slidesPerView: 3,
+        spaceBetween: 10
+      },
+      770: {
+        slidesPerView: 2,
+        spaceBetween: 10
+      },
+      500:{
+        slidesPerView: 1,
+        spaceBetween: 10
+      }
+    }
     
   });
   var events = new Swiper(".events", {
@@ -59,6 +103,28 @@ $(document).ready(function() {
     autoplay: {
       delay: 2500,
       disableOnInteraction: false
+    },
+    breakpoints: {
+      1500: {
+        slidesPerView: 3,
+        spaceBetween: 10
+      },
+      1200: {
+        slidesPerView: 3,
+        spaceBetween: 10
+      },
+      990: {
+        slidesPerView: 3,
+        spaceBetween: 10
+      },
+      770: {
+        slidesPerView: 2,
+        spaceBetween: 10
+      },
+      500:{
+        slidesPerView: 1,
+        spaceBetween: 10
+      }
     }
   });
   var partners = new Swiper(".partners", {
@@ -74,13 +140,28 @@ $(document).ready(function() {
     autoplay: {
       delay: 2500,
       disableOnInteraction: false
+    },
+    breakpoints: {
+      1500: {
+        slidesPerView: 6,
+        spaceBetween: 10
+      },
+      1200: {
+        slidesPerView: 5,
+        spaceBetween: 10
+      },
+      990: {
+        slidesPerView: 4,
+        spaceBetween: 10
+      },
+      770: {
+        slidesPerView: 4,
+        spaceBetween: 10
+      },
+      500:{
+        slidesPerView: 3,
+        spaceBetween: 10
+      }
     }
   });
-
-  
-       
-    
 });
-   function myFunction(x) {
-              x.classList.toggle("change");
-          }

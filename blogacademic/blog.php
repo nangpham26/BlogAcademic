@@ -21,7 +21,7 @@
                         <h5>January 23, 2018</h5>
                         <p>Etiam placerat velit vitae dui blandit sollicitudin. Vestibulum tincidunt sed dolor sit amet volutpat. Nullam egestas sem at mollis sodales. Nunc eget lacinia eros,…</p>
                         <div class="ndung-buttons">
-                                <a href="#" class="button-a-post">Read More</a>
+                            <a href="#" class="button-a-post">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
                         <h5>January 23, 2018</h5>
                         <p>Etiam placerat velit vitae dui blandit sollicitudin. Vestibulum tincidunt sed dolor sit amet volutpat. Nullam egestas sem at mollis sodales. Nunc eget lacinia eros,…</p>
                         <div class="ndung-buttons">
-                                <a href="#" class="button-a-post">Read More</a>
+                            <a href="#" class="button-a-post">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                         <h5>January 23, 2018</h5>
                         <p>Etiam placerat velit vitae dui blandit sollicitudin. Vestibulum tincidunt sed dolor sit amet volutpat. Nullam egestas sem at mollis sodales. Nunc eget lacinia eros,…</p>
                         <div class="ndung-buttons">
-                                <a href="#" class="button-a-post">Read More</a>
+                            <a href="#" class="button-a-post">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@
                         <h5>January 23, 2018</h5>
                         <p>Etiam placerat velit vitae dui blandit sollicitudin. Vestibulum tincidunt sed dolor sit amet volutpat. Nullam egestas sem at mollis sodales. Nunc eget lacinia eros,…</p>
                         <div class="ndung-buttons">
-                                <a href="#" class="button-a-post">Read More</a>
+                            <a href="#" class="button-a-post">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -73,12 +73,12 @@
                         <h5>January 23, 2018</h5>
                         <p>Etiam placerat velit vitae dui blandit sollicitudin. Vestibulum tincidunt sed dolor sit amet volutpat. Nullam egestas sem at mollis sodales. Nunc eget lacinia eros,…</p>
                         <div class="ndung-buttons">
-                                <a href="#" class="button-a-post">Read More</a>
+                            <a href="#" class="button-a-post">Read More</a>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
             <div class="text-center">
                 <div class="item-list">
                     <ul class="pagination">
@@ -90,36 +90,88 @@
             </div>
         </div>
         <div class="column-right">
-        <h4 class="widget-title">Looking for something?</h4>
-                <section class="search-form">
-                    <form method="get" class="product-search" action="#">
-                        <input type="search"  class="search-field" placeholder="Search…" value="" name="s">
-                        <button type="submit" value="Search">Search</button>
-                        <input type="hidden" name="post_type" value="product">
-                    </form>
-                </section>
-                <section class="forlow-title">
-                    <h4 class="widget-title">Follow us on Social Media</h4>
-                    <a href="#"><img src="./img/twitter.png" alt="" class="imgresponsive"></a>
-                    <a href="#"><img src="./img/facebook.png" alt="" class="imgresponsive"></a>
-                    <a href="#"><img src="./img/instagram.png" alt="" class="imgresponsive"></a>
-                    <a href="#"><img src="./img/youtube.png" alt="" class="imgresponsive"></a>
-                </section>
-                <section>
-                    <h4 class="widget-title">Categories</h4>
-                    <ul class="product-categories">
-                        <li><a href="#">Food</a></li>
-                        <li><a href="#">Stress</a></li>
-                        <li><a href="#">Technology</a></li>
-                        <li><a href="#">Time Management</a></li>
-                        <li><a href="#">Uncategorized</a></li>
-                        <li><a href="#">Work</a></li>
-                    </ul>
-                </section>
+            <h4 class="widget-title">Looking for something?</h4>
+            <section class="search-form">
+                <form method="get" class="product-search" action="#">
+                    <input type="search" class="search-field" placeholder="Search…" value="" name="s">
+                    <button type="submit" value="Search">Search</button>
+                    <input type="hidden" name="post_type" value="product">
+                </form>
+            </section>
+            <div class="items">
+                <div class="line-item">
+                    <div class="img-item">
+                        <img src="./img/1.jpg" alt="hinh" class="img-responsive">
+                    </div>
+                    <div class="img-content">
+                        <a class="sub-title">Anthropology Open House</a><br>
+                        <span class="des"><i class="far fa-clock"></i>
+                            February 8, 2018
+                        </span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="line-item">
+                    <div class="img-item">
+                        <img src="./img/1.jpg" alt="hinh" class="img-responsive">
+                    </div>
+                    <div class="img-content">
+                        <a class="sub-title">Anthropology Open House</a><br>
+                        <span class="des"><i class="far fa-clock"></i>
+                            February 8, 2018
+                        </span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="line-item">
+                    <div class="img-item">
+                        <img src="./img/1.jpg" alt="hinh" class="img-responsive">
+                    </div>
+                    <div class="img-content">
+                        <a class="sub-title">Anthropology Open House</a><br>
+                        <span class="des"><i class="far fa-clock"></i>
+                            February 8, 2018
+                        </span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="line-item">
+                    <div class="img-item">
+                        <img src="./img/1.jpg" alt="hinh" class="img-responsive">
+                    </div>
+                    <div class="img-content">
+                        <a class="sub-title">Anthropology Open House</a><br>
+                        <span class="des"><i class="far fa-clock"></i>
+                            February 8, 2018
+                        </span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="line-item">
+                    <div class="img-item">
+                        <img src="./img/1.jpg" alt="hinh" class="img-responsive">
+                    </div>
+                    <div class="img-content">
+                        <a class="sub-title">Anthropology Open House</a><br>
+                        <span class="des"><i class="far fa-clock"></i>
+                            February 8, 2018
+                        </span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <section class="forlow-title">
+                <h4 class="widget-title">Follow us on Social Media</h4>
+                <a href="#"><img src="./img/twitter.png" alt="" class="imgresponsive"></a>
+                <a href="#"><img src="./img/facebook.png" alt="" class="imgresponsive"></a>
+                <a href="#"><img src="./img/instagram.png" alt="" class="imgresponsive"></a>
+                <a href="#"><img src="./img/youtube.png" alt="" class="imgresponsive"></a>
+            </section>
+
         </div>
     </div>
 </div>
 <div class="mar" style="margin-top: -63px;">
-<?php include './footer.php'; ?>
+    <?php include './footer.php'; ?>
 </div>
 </body>
