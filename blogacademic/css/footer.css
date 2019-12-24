@@ -3,12 +3,16 @@
 	background-color: #353535;
 	text-align: left;
 	margin-top: 63px;
-	height: 173px;
+	height: auto;
 	padding-top: 87px;
+	
+}
+#footer .page-section{
+	overflow: auto;
 }
 .column-footer {
 	float: left;
-    margin-right: 172px;
+    width: 33%;
     color: #fff;
 }
 .address-vietnam li a{
@@ -48,3 +52,9 @@
 	opacity: 0.7;
 }
 
+@media screen and (max-width: 768px) {
+	#footer .page-section .column-footer{
+		width: 100%;
+		padding-bottom: 15px;
+	}
+}

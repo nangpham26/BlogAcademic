@@ -74,7 +74,7 @@
   </header>
 </div>
 <div class="left-right-button">
-  <a id="left-button" class="menu-button right" href="#left-top" onclick="myFunction(this)">
+  <a id="left-button" class="menu-button right" href="#left-top" onclick="myFunction(this)" >
     <div class="container">
     <div class="bar1"></div>
     <div class="bar2"></div>

@@ -14,5 +14,5 @@
         <script src="js/jquery.min.js"></script>
         <script src="js/script.js"></script>
     </head>
-<body>
+<body id="fix-body">
   

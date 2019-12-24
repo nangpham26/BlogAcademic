@@ -1,4 +1,10 @@
+#fix-body{
+    transition: all 0.5s ease-in-out 0s;
+}
 
+.dis-menu {
+    left: 0 !important;
+}
 body {
     background: #F7FCFE;
     color: #313131;
@@ -6,9 +12,9 @@ body {
     font-weight: 400;
     font-size: 14px;
     margin: 0;
-    margin-top: 7px;
     overflow-x: hidden;
     box-sizing: border-box;
+    
 }
 #all-world {
     position: relative;
@@ -168,7 +174,7 @@ a {
 }
 
     
-}
+
 .menu-dropdown {
     position: relative;
   display: inline-block;
@@ -223,7 +229,7 @@ a {
         
     }
     .left-right-button {
-        margin-bottom: 47px;
+        display: flow-root !important;
     }
     #left-top {
         display: block;
@@ -231,15 +237,22 @@ a {
 
 
 }
-/********************Menu moblie left*************************************/
-
+/********************Menu moblie left icon*************************************/
+.left-right-button {
+    position: relative;
+    width: 100%;
+    display: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #fff;
+    
+}
 .menu-button {
     display: none;
 }
 #left-button {
-    position: absolute;
-    top: 7px;
-    left: 5px;
+    float: left;
+    margin-left: 5px;
     background: #27A5E0;
     width: 35px;
     height: 35px;
@@ -248,8 +261,7 @@ a {
     color: #fff;
     font-size: 25px;
     border-radius: 5px;
-    z-index: 3000;
-    overflow: hidden;
+    
 }
 #left-button .container {
     margin-top: 9px;
@@ -273,9 +285,8 @@ a {
 }
 /**********************Menu mobile right**********************************/
 #right-button {
-   position: absolute;
-    top: 7px;
-    right: 5px;
+   float: right;
+    margin-right: 5px;
     background: #27A5E0;
     width: 35px;
     height: 35px;
@@ -284,9 +295,9 @@ a {
     color: #fff;
     font-size: 25px;
     border-radius: 5px;
-    z-index: 3000;
-    overflow: hidden;
+   
 }
+/* menu mobile left */
 
 .mobile-menu {
     display: none;
@@ -300,7 +311,7 @@ a {
     font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
     font-size: 15px;
     transition: left 0.5s ease-in-out 0s;
-    left: 0px;
+    left: -260px;
     background: #347FE1;
 }
 .entry-left-top .top-header {

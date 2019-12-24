@@ -165,3 +165,16 @@ $(document).ready(function() {
     }
   });
 });
+function myFunction(x) {
+  x.classList.toggle("change");
+  if($('#left-top').hasClass('dis-menu')){
+    var element = document.getElementById("left-top");
+    element.classList.remove("dis-menu");
+    document.getElementById("fix-body").style.marginLeft = 0;
+  }else{
+  var element = document.getElementById("left-top");
+  element.classList.add("dis-menu");
+  document.getElementById("fix-body").style.marginLeft = "260px";
+  }
+}
+
