@@ -212,8 +212,9 @@
 
 		</div> <!--  end .row  -->
 	</div> <!-- .container -->
+	<div class="clear"></div>
 </div>
-<div class="clear"></div> <!--  .product  -->
+ 
 
 
 <?php include './footer.php'; ?>
