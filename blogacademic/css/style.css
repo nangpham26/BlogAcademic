@@ -195,6 +195,7 @@ a {
     .menu-login {
         margin-left: 283px;
     }
+
 }
 @media screen and (max-width: 1024px) {
     .menu {
@@ -204,16 +205,153 @@ a {
     .menu-login {
         margin-left: 50px;
     }
+
 }
 @media screen and (max-width: 768px) {
-    .menu {
-        font-size: 16px;
-        margin-left: 94px;
+    .page-blog {
+        display: none;
     }
-    .menu-login {
-        margin-left: 50px;
+    .slideshow {
+
     }
+    #left-button {
+        display: block;
+        
+    }
+    #right-button {
+        display: block;
+        
+    }
+    .left-right-button {
+        margin-bottom: 47px;
+    }
+    #left-top {
+        display: block;
+        }
+
+
+}
+/********************Menu moblie left*************************************/
+
+.menu-button {
+    display: none;
+}
+#left-button {
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    background: #27A5E0;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 5px;
+    z-index: 3000;
+    overflow: hidden;
+}
+#left-button .container {
+    margin-top: 9px;
+    margin-left: -7px;
+}
+.bar1, .bar2, .bar3 {
+    width: 19px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+    transition: all ease-in-out 0.2s;
+}
+.change .bar1 {
+    transform: rotate(-45deg) translate(-5px, 5px);
+}
+.change .bar2 {
+    opacity: 0;
+}
+.change .bar3 {
+    transform: rotate(45deg) translate(-5px, -5px);
+}
+/**********************Menu mobile right**********************************/
+#right-button {
+   position: absolute;
+    top: 7px;
+    right: 5px;
+    background: #27A5E0;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 5px;
+    z-index: 3000;
+    overflow: hidden;
 }
 
+.mobile-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    z-index: 999999;
+    width: 260px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 15px;
+    transition: left 0.5s ease-in-out 0s;
+    left: 0px;
+    background: #347FE1;
+}
+.entry-left-top .top-header {
+    text-align: center; 
+}
+.entry-left-top .top-header .top-header-logo {
+    margin-bottom: 20px;
+}
+.entry-left-top .top-header .top-header-text a{
+    font-size: 32px;
+    color: #fff;
+}
+.entry-left-top .top-header .top-header-text p {
+    margin: 0;
+    margin-bottom: 25px;
+}
+.entry-left-top #left-id-menu {
+    display: block;
+    padding: 0;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #fff;
+    line-height: 48px;
+}
+.entry-left-top #left-id-menu li {
+    border-bottom: 1px solid #fff;
+    list-style: none;
+    color: #fff;
+}
+.entry-left-top #left-id-menu li a {
+    color: #fff;
+    margin-left: 20px;
+}
+.entry-left-top #left-id-menu li a:focus {
+    outline: thin dotted;
+}
+.entry-left-top #left-id-menu ul li {
+    border-bottom: 1px solid #dfdfdf;
+}
 
+.entry-left-top #left-id-menu li:hover {
+    background-color: #27A5E0;
+    cursor: pointer;
+    border-bottom: 3px solid #fff;
+}
 
+.entry-left-top #left-id-menu li ul li:hover {
+    border-bottom: 2px solid #fff;
+}
+.border-top {
+     border-bottom: 1px solid #dfdfdf;
+}
+.border-top:hover {
+    border-bottom: 2px solid #fff;
+}
