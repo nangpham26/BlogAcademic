@@ -1,4 +1,12 @@
+<?php 
+session_start();
+    if(empty($_SESSION['email'])){
+    $_SESSION['username']='Đăng nhập';
+    } 
+?>
+
 <?php include './header.php';?>
+
 <div class="page-blog">
   <div class="site-inner">
     <section id="top-bar">
@@ -17,14 +25,28 @@
             </li>
           </ul>
         </div> 
-        <div class="pull-right">
+        <div class="pull-right">                   
           <ul class="menu-login">
-            <li id="signin"> 
-              <a href="login.php">Đăng nhập</a>
-            </li>
-            <li id="signup">
-              <a href="signup.php">Đăng ký</a>
-            </li>
+            <?php if(!empty($_SESSION['email']) == 1): ?>
+            
+            <li class="menu-dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: red;"><?php echo $_SESSION['email']; ?>
+             <i class="fas fa-sort-down"></i></a>
+            <ul class="sub-menu">
+             <li>
+                    <a href="logout.php">
+                    <i class="fas fa-user"></i> Đăng xuất </a>
+                  </li>
+            </ul>
+          </li>
+            <?php else :?>
+              <li id="signin"> 
+                <a href="login.php">Đăng nhập</a>
+              </li>
+              <li id="signup">
+                <a href="signup.php">Đăng ký</a>
+              </li>
+            <?php  endif ;?>
           </ul>
         </div> 
       </div>
@@ -74,7 +96,7 @@
   </header>
 </div>
 <div class="left-right-button">
-  <a id="left-button" class="menu-button right" href="#left-top" onclick="myFunction(this)" >
+  <a id="left-button" class="menu-button right" href="#left-top" onclick="myFunction(this)" onclick="openNav(this)">
     <div class="container">
     <div class="bar1"></div>
     <div class="bar2"></div>

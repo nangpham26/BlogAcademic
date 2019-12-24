@@ -1,3 +1,35 @@
+<?php
+session_start();
+    require_once("connect.php");
+
+    
+
+    if(isset($_POST['button'])){
+        $email = $_POST['email'];
+        $password = $_POST['password'];
+
+        //xoa cac html thua
+        $email = strip_tags($email);
+        $email = addslashes($email);
+        $password = strip_tags($password);
+        $password = addslashes($password);
+
+        if($email == "" || $password == ""){
+            echo "ban can nhap tai khoan mat khau";
+        }else{
+        $sql = "select * from dangky where email = '$email' and password = '$password'";
+        $query = mysqli_query($conn, $sql);
+        $num_rows = mysqli_num_rows($query);
+        if($num_rows == 0){
+            echo "khong the dang nhap";
+        }else{
+            $_SESSION['email'] = $email;
+            header('Location: index.php');
+        }
+        }
+    }
+?>
+
 <html>
     <head>
         <title>Blog | Academic</title>
@@ -38,15 +70,15 @@
                             <div class="login">
                                 <div class="entry-login">
                                     <p>Hoặc đăng nhập bằng</p>
-                                    <form role="form">
+                                    <form action="login.php" method="POST">
                                         <div class="form-group">
-                                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email hoặc số điện thoại">
+                                            <input type="text" class="form-control" name="email" id="username" placeholder="Email hoặc số điện thoại">
                                         </div>
                                         <div class="form-group">
-                                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mật khẩu">
+                                            <input type="password" class="form-control" name="password" id="password" placeholder="Mật khẩu">
                                         </div>
                                         <div class="dangnhap">
-                                            <button type="submit" class="button">Đăng nhập</button>
+                                            <button type="submit" name="button" value="login" class="button">Đăng nhập</button>
                                             <p class="lost-pass">
                                                 <a href="lostpassword.php">Quên mật khẩu?</a>
                                             </p>
@@ -70,7 +102,22 @@
             </div>
         </div>
     </div>
-        
+        <?php if((!empty($_POST['username'])) &&(!empty($_POST['password']))):?>
+            <?php foreach ($accou as $Item):?>
+                 <?php if($Item['username'] == $_POST['username'] && $Item['password'] == $_POST['password'])
+                    {
+                     $_SESSION['ab']= $_POST['username'];
+                     $_SESSION['x'] = 1;
+                     header('Location: index.php');
+                    }
+                    ?>
+                <?php endforeach; ?>
+                     <?php
+                    if($Item['username'] == $_POST['username'] && $Item['password'] == $_POST['password'])
+                    { }
+                    else
+                         echo " <h1 class = 'h1' > Tài khoản không chính xác!!!</h1>";?>
+        <?php endif;?>
     </body>
 </html>
 

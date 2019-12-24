@@ -64,6 +64,7 @@ a {
 }
 #top-bar {
     color: #777;
+    margin-top: 10px;
 }
 .address-block .fa {
     margin-right: 10px;

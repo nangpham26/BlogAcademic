@@ -1,3 +1,4 @@
+
 <html>
     <head>
         <title>Blog | Academic</title>
@@ -38,21 +39,21 @@
                             <div class="login">
                                 <div class="entry-login">
                                     <p>Hoặc đăng kí ngay</p>
-                                    <form role="form">
+                                    <form action="dulieu.php" method="POST">
                                         <div class="form-group">
-                                            <input type="surname" class="form-control" id="exampleInputEmail1" placeholder="Họ">
+                                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Họ">
                                         </div>
                                         <div class="form-group">
-                                            <input type="name" class="form-control" id="exampleInputPassword1" placeholder="Tên">
+                                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Tên">
                                         </div>
                                         <div class="form-group">
-                                            <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email hoặc số điện thoại">
+                                            <input type="email" class="form-control" id="email" name="email" placeholder="Email hoặc số điện thoại">
                                         </div>
                                         <div class="form-group">
-                                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mật khẩu">
+                                            <input type="password" class="form-control" id="password" name="password" placeholder="Mật khẩu">
                                         </div>
                                         <div class="dangnhap">
-                                            <button type="submit" class="button">Đăng ký</button>
+                                            <button type="submit" class="button" onclick="alert('Đăng ký thành công !! Vui lòng vào trang đăng nhập :)')">Đăng ký</button>
                                             <p class="lost-pass">
                                                 <a href="login.php">Đã có tài khoản ?</a>
                                             </p>
