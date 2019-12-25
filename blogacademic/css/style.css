@@ -80,8 +80,7 @@ a {
     width: 60%;
 }
 .pull-right {
-    width: 40%;
-    float: left;
+    width: 38%;
 }
 
 #signin a{
@@ -209,13 +208,20 @@ a {
         font-size: 16px;
         margin-left: 327px;
     }
-    
-
+    .pull-right {
+        width: 37%;
+    }  
 }
 @media screen and (max-width: 1024px) {
     .menu {
         font-size: 16px;
         margin-left: 94px;
+    }
+    .pull-right {
+        width: 30%;
+    }
+    .pull-left {
+        width: 61%;
     }
     
 

@@ -109,31 +109,40 @@
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .type-24 .form-group .form-control {
-    margin-left: 250px;
-    width: 50%;
+    width: 33%;
   }
 }
 @media only screen and (max-width: 768px) {
   .type-24 .form-group .form-control {
-    margin-left: 150px;
-    width: 60%;
+    width: 40%;
+    height: 5%;
+  }
+  .type-24 .hinh img { 
+    margin-top: 0;
   }
 }
 @media only screen and (max-width: 600px) {
   .type-24 .form-group .form-control {
-    margin-left: 125px;
     width: 60%;
+  }
+  .type-24 .hinh img { 
+    margin-top: 0;
   }
 }
 @media only screen and (max-width: 320px) {
   .type-24 .form-group .form-control {
-    margin-left: 70px;
     width: 50%;
+  }
+  .type-24 .hinh img { 
+    margin-top: 0;
+    width: 103%;
   }
 }
 @media only screen and (max-width: 400px) {
   .type-24 .form-group .form-control {
-    margin-left: 40px;
     width: 80%;
+  }
+  .type-24 .hinh img { 
+    margin-top: 0;
   }
 }
