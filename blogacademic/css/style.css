@@ -1,5 +1,6 @@
 #fix-body{
     transition: all 0.5s ease-in-out 0s;
+    margin-top: 45px;
 }
 
 .dis-menu {
@@ -307,12 +308,14 @@ a {
 }
 /********************Menu moblie left icon*************************************/
 .left-right-button {
-    position: relative;
+    top: 0;
     width: 100%;
     display: none;
     padding-top: 5px;
     padding-bottom: 5px;
     background: #fff;
+    position: fixed;
+    z-index: 1000;
     
 }
 .menu-button {
