@@ -177,4 +177,13 @@ function myFunction(x) {
   document.getElementById("fix-body").style.marginLeft = "260px";
   }
 }
+function discontact(){
+  if($('#top-bar').hasClass('dis-contact')){
+    var element = document.getElementById("top-bar");
+    element.classList.remove("dis-contact");
+  }else{
+    var element = document.getElementById("top-bar");
+    element.classList.add("dis-contact");
+  }
+}
 
