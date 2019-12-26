@@ -32,7 +32,7 @@ session_start();
             <li class="menu-dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: red;"><?php echo $_SESSION['email']; ?>
              <i class="fas fa-sort-down"></i></a>
-            <ul class="sub-menu">
+            <ul class="sub-menu" style="min-width: 135px; font-size: 15px;">
              <li>
                     <a href="logout.php">
                     <i class="fas fa-user"></i> Đăng xuất </a>
@@ -85,8 +85,8 @@ session_start();
             <i class="fas fa-angle-down"></i> </a>
             <ul class="sub-menu">
               <li><a href="#">Nhập môn lập trình</a></li>
-              <li><a href="#">Tìm hiểu AngularJS</a></li>
-              <li><a href="#">Tìm hiểu AJAX</a></li>
+              <li><a href="#">Thiết kế web</a></li>
+              <li><a href="#">Khoá học SEO</a></li>
             </ul>
           </li>
           <li><a href="contact.php" class="menu1">LIÊN HỆ</a></li>
@@ -122,32 +122,32 @@ session_start();
     </div>
     <ul id="left-id-menu" class="left-class-menu">
         <li>
-          <a href="#">TRANG CHỦ</a>
+          <a href="index.php">TRANG CHỦ</a>
         </li>
         <li>
-          <a href="#">BLOG</a>
+          <a href="blog.php">BLOG</a>
         </li>
         <li>
           <div class="border-top">
-            <a href="#">HƯỚNG DẪN HỌC</a></div>
+            <a href="huongdanhoc.php">HƯỚNG DẪN HỌC</a></div>
           <ul>
             <li><a href="#">Tìm hiểu HTML</a></li>
-            <li><a href="#">Tìm hiểu HTML</a></li>
-            <li><a href="#">Tìm hiểu HTML</a></li>
+            <li><a href="#">Tìm hiểu AngularJS</a></li>
+            <li><a href="#">Tìm hiểu AJAX</a></li>
           </ul>
         </li>
         <li>
             <div class="border-top">
-              <a href="#">KHOÁ HỌC</a>
+              <a href="khoahoc.php">KHOÁ HỌC</a>
             </div>
           <ul>
-            <li><a href="#">Tìm hiểu HTML</a></li>
-            <li><a href="#">Tìm hiểu HTML</a></li>
-            <li><a href="#">Tìm hiểu HTML</a></li>
+            <li><a href="#">Nhập môn lập trình</a></li>
+            <li><a href="#">Thiết kế web</a></li>
+            <li><a href="#">Khoá học SEO</a></li>
           </ul>
         </li>
         <li>
-          <a href="#">LIÊN HỆ</a>
+          <a href="contact.php">LIÊN HỆ</a>
         </li>
     </ul>
   </div>

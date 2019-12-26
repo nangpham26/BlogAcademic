@@ -81,8 +81,8 @@
                 <div class="item-list">
                     <ul class="pagination">
                         <li class="page"><a href="#">1</a></li>
-                        <li class="page"><a title="Go to page 2" href="#">2</a></li>
-                        <li class="page"><a title="Go to next page" href="#">Next</a></li>
+                        <li class="page"><a title="Go to page 2" href="huongdanhoc.php">2</a></li>
+                        <li class="page"><a title="Go to next page" href="huongdanhoc.php">Next</a></li>
                     </ul>
                 </div>
             </div>
